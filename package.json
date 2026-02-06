@@ -1,6 +1,7 @@
 {
   "name": "my-react-app",
-  
+  "homepage": "https://icyx000.github.io/palm",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
