@@ -4,7 +4,6 @@ import {
 	BrowserRouter as Router,
 	Route,
 	Routes,
-	Link
 } from "react-router-dom"
 
 import Home from "../home/Home"
@@ -18,7 +17,7 @@ import Contact from "../contact/Contact"
 const Pages = () => {
 	return ( 
 	<>
-	<Router basename="/timilehin">
+	<Router >
 		<Header />
 		<Routes>
 			<Route path="/" element={<Home />} />
