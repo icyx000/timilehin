@@ -18,7 +18,7 @@ import Contact from "../contact/Contact"
 const Pages = () => {
 	return ( 
 	<>
-	<Router basename="/palm">
+	<Router basename="/timilehin">
 		<Header />
 		<Routes>
 			<Route path="/" element={<Home />} />
